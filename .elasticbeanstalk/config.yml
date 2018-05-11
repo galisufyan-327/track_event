@@ -1,0 +1,19 @@
+branch-defaults:
+  master:
+    environment: nulodgic-eventing-demo
+environment-defaults:
+  nulodgic-eventing-demo:
+    branch: null
+    repository: null
+global:
+  application_name: nulodgic_eventing
+  default_ec2_keyname: nulodgic
+  default_platform: Ruby 2.4 (Puma)
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application
